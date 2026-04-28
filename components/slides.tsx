@@ -299,7 +299,7 @@ function HostsSlide() {
       role: "Office & Community Manager",
       company: "Rootly AI",
       companyLogo: "https://media.licdn.com/dms/image/v2/D4D0BAQEF47uwga4CzQ/company-logo_200_200/B4DZpPoflBGwAI-/0/1762272606899/rootlyhq_logo?e=1778716800&v=beta&t=U3EHW1ZjEHgJUiHmf04_J-YYAH-XGVDNIK3YQYiy5ho",
-      bio: "Fostering connections and building community.",
+      bio: "Law background with management and sales experience. Passionate about helping people and building strong customer relationships.",
     },
   ]
 
@@ -324,11 +324,13 @@ function HostsSlide() {
             
             {/* Company logo and role */}
             <div className="mb-4 flex flex-col items-center gap-2">
-              <img 
-                src={host.companyLogo} 
-                alt={host.company}
-                className="h-8 object-contain"
-              />
+              <div className="w-12 h-12 rounded-full overflow-hidden bg-muted border border-primary/10 flex items-center justify-center">
+                <img 
+                  src={host.companyLogo} 
+                  alt={host.company}
+                  className="h-8 object-contain"
+                />
+              </div>
               <div className="text-xs text-muted-foreground">
                 <p className="font-medium">{host.role}</p>
                 <p>{host.company}</p>
