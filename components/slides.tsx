@@ -328,7 +328,7 @@ function HostsSlide() {
                 <img 
                   src={host.companyLogo} 
                   alt={host.company}
-                  className="h-8 object-contain"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="text-xs text-muted-foreground">
