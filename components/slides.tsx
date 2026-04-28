@@ -280,17 +280,26 @@ function HostsSlide() {
     {
       name: "Hakan Orunlu",
       image: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,anim=false,background=white,quality=75,width=112,height=112/avatars/qv/d257a267-2a5a-4590-b03e-e79e756b022b.png",
+      role: "Ecommerce & AI Automation Manager",
+      company: "Proax Technologies",
+      companyLogo: "https://media.licdn.com/dms/image/v2/C4D0BAQH26ch_0LKmEQ/company-logo_200_200/company-logo_200_200/0/1631373701820?e=1778716800&v=beta&t=Pi28AKCn-mwU2wRn40uzmcPtNVOvAxbMTi1V2AEEd8A",
       bio: "Electrical Engineer with 5+ years at Google Search, designing AI-powered marketing systems and AI agents.",
     },
     {
       name: "Berto Mill",
       image: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,anim=false,background=white,quality=75,width=112,height=112/avatars/rk/3357ea12-8f0d-4b68-b55b-c04df0916aae.jpg",
+      role: "Go-to-Market Lead",
+      company: "Aucctus AI",
+      companyLogo: "https://media.licdn.com/dms/image/v2/D4D0BAQHb9hsG307GBA/company-logo_200_200/company-logo_200_200/0/1736787086978/aucctus_logo?e=1778716800&v=beta&t=NKj73M9zQ14E3uuX4gX9_uzYw732xnL7JXRatUHCQa0",
       bio: "Builder of 100+ AI agents. Founder of MakersLounge, Toronto community of 700+ founders, developers, and creators.",
     },
     {
       name: "Anastasiia Konovalenko",
       image: "https://media.licdn.com/dms/image/v2/D4E03AQFFBzeZ3ic7iw/profile-displayphoto-crop_800_800/B4EZxFoxQoJAAI-/0/1770694841873?e=1778716800&v=beta&t=CLR32s3jpra3PNNwQKvRiOvicCL9JponrXmiETiqH7Y",
-      bio: "Office & Community Manager @ Rootly AI, fostering connections and building community.",
+      role: "Office & Community Manager",
+      company: "Rootly AI",
+      companyLogo: "https://media.licdn.com/dms/image/v2/D4D0BAQEF47uwga4CzQ/company-logo_200_200/B4DZpPoflBGwAI-/0/1762272606899/rootlyhq_logo?e=1778716800&v=beta&t=U3EHW1ZjEHgJUiHmf04_J-YYAH-XGVDNIK3YQYiy5ho",
+      bio: "Fostering connections and building community.",
     },
   ]
 
@@ -302,7 +311,7 @@ function HostsSlide() {
         {hosts.map((host, index) => (
           <div key={index} className="flex flex-col items-center text-center">
             {/* Circular image */}
-            <div className="mb-6 relative w-40 h-40 rounded-full overflow-hidden border-4 border-primary/20 bg-muted">
+            <div className="mb-4 relative w-40 h-40 rounded-full overflow-hidden border-4 border-primary/20 bg-muted">
               <img 
                 src={host.image} 
                 alt={host.name}
@@ -310,8 +319,23 @@ function HostsSlide() {
               />
             </div>
             
-            {/* Name and bio */}
-            <h3 className="text-xl font-semibold mb-2">{host.name}</h3>
+            {/* Name */}
+            <h3 className="text-xl font-semibold mb-3">{host.name}</h3>
+            
+            {/* Company logo and role */}
+            <div className="mb-4 flex flex-col items-center gap-2">
+              <img 
+                src={host.companyLogo} 
+                alt={host.company}
+                className="h-8 object-contain"
+              />
+              <div className="text-xs text-muted-foreground">
+                <p className="font-medium">{host.role}</p>
+                <p>{host.company}</p>
+              </div>
+            </div>
+            
+            {/* Bio */}
             <p className="text-sm text-muted-foreground leading-relaxed">{host.bio}</p>
           </div>
         ))}
