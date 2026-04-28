@@ -280,7 +280,7 @@ function HostsSlide() {
     {
       name: "Hakan Orunlu",
       image: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,anim=false,background=white,quality=75,width=112,height=112/avatars/qv/d257a267-2a5a-4590-b03e-e79e756b022b.png",
-      bio: "Electrical Engineer with 5+ years at Google Search, designing AI-powered marketing systems and autonomous agents.",
+      bio: "Electrical Engineer with 5+ years at Google Search, designing AI-powered marketing systems and AI agents.",
     },
     {
       name: "Berto Mill",
