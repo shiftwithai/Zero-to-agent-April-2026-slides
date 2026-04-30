@@ -49,8 +49,12 @@ export function Slides() {
         <CurrentSlideComponent />
       </div>
 
-      {/* Navigation */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-4">
+      {/* Navigation - Bottom Right */}
+      <div className="absolute bottom-6 right-6 flex items-center gap-4">
+        <div className="text-sm text-muted-foreground">
+          {currentSlide + 1} / {slides.length}
+        </div>
+
         <Button
           variant="ghost"
           size="icon"
@@ -83,11 +87,6 @@ export function Slides() {
         >
           <ChevronRight className="h-5 w-5" />
         </Button>
-      </div>
-
-      {/* Slide counter */}
-      <div className="absolute bottom-6 right-6 text-sm text-muted-foreground">
-        {currentSlide + 1} / {slides.length}
       </div>
     </div>
   )
