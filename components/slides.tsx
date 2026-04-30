@@ -283,6 +283,7 @@ function HostsSlide() {
       role: "Ecommerce & AI Automation Manager",
       company: "Proax Technologies",
       companyLogo: "https://media.licdn.com/dms/image/v2/C4D0BAQH26ch_0LKmEQ/company-logo_200_200/company-logo_200_200/0/1631373701820?e=1778716800&v=beta&t=Pi28AKCn-mwU2wRn40uzmcPtNVOvAxbMTi1V2AEEd8A",
+      linkedIn: "https://www.linkedin.com/in/hakanorunlu/",
       bio: "",
     },
     {
@@ -291,6 +292,7 @@ function HostsSlide() {
       role: "Go-to-Market Lead",
       company: "Aucctus AI",
       companyLogo: "https://media.licdn.com/dms/image/v2/D4D0BAQHb9hsG307GBA/company-logo_200_200/company-logo_200_200/0/1736787086978/aucctus_logo?e=1778716800&v=beta&t=NKj73M9zQ14E3uuX4gX9_uzYw732xnL7JXRatUHCQa0",
+      linkedIn: "https://www.linkedin.com/in/bertomill/",
       bio: "",
     },
     {
@@ -299,6 +301,7 @@ function HostsSlide() {
       role: "Office & Community Manager",
       company: "Rootly AI",
       companyLogo: "https://media.licdn.com/dms/image/v2/D4D0BAQEF47uwga4CzQ/company-logo_200_200/B4DZpPoflBGwAI-/0/1762272606899/rootlyhq_logo?e=1778716800&v=beta&t=U3EHW1ZjEHgJUiHmf04_J-YYAH-XGVDNIK3YQYiy5ho",
+      linkedIn: "https://www.linkedin.com/in/anastasiia-konovalenko/",
       bio: "",
     },
   ]
@@ -335,6 +338,15 @@ function HostsSlide() {
                 <p className="font-medium">{host.role}</p>
                 <p>{host.company}</p>
               </div>
+            </div>
+            
+            {/* QR Code */}
+            <div className="mb-4">
+              <img 
+                src={`https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=${encodeURIComponent(host.linkedIn)}`}
+                alt={`LinkedIn QR code for ${host.name}`}
+                className="w-20 h-20"
+              />
             </div>
             
             {/* Bio */}
