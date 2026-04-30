@@ -375,7 +375,7 @@ function LetsBuildSlide() {
         />
       </div>
 
-      <p className="text-sm text-muted-foreground mb-10">
+      <p className="text-lg font-medium text-foreground mb-10">
         zerotoagent.dev/event/RbeBMcn9EPsyxEld
       </p>
 
@@ -390,7 +390,7 @@ function LetsBuildSlide() {
           <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
             <span className="text-primary font-bold">2</span>
           </div>
-          <p>Build your AI agent idea</p>
+          <p>Grab your $30 code and redeem it in <span className="text-primary font-medium">Settings → Billing</span></p>
         </div>
         <div className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border">
           <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
