@@ -291,7 +291,7 @@ function HostsSlide() {
       role: "Go-to-Market Lead",
       company: "Aucctus AI",
       companyLogo: "https://media.licdn.com/dms/image/v2/D4D0BAQHb9hsG307GBA/company-logo_200_200/company-logo_200_200/0/1736787086978/aucctus_logo?e=1778716800&v=beta&t=NKj73M9zQ14E3uuX4gX9_uzYw732xnL7JXRatUHCQa0",
-      bio: "Builder of 100+ AI agents. Founder of MakersLounge, Toronto community of 700+ founders, developers, and creators.",
+      bio: "",
     },
     {
       name: "Anastasiia Konovalenko",
@@ -299,7 +299,7 @@ function HostsSlide() {
       role: "Office & Community Manager",
       company: "Rootly AI",
       companyLogo: "https://media.licdn.com/dms/image/v2/D4D0BAQEF47uwga4CzQ/company-logo_200_200/B4DZpPoflBGwAI-/0/1762272606899/rootlyhq_logo?e=1778716800&v=beta&t=U3EHW1ZjEHgJUiHmf04_J-YYAH-XGVDNIK3YQYiy5ho",
-      bio: "Law background with management and sales experience. Passionate about helping people and building strong customer relationships.",
+      bio: "",
     },
   ]
 
