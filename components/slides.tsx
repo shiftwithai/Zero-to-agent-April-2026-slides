@@ -375,7 +375,7 @@ function LetsBuildSlide() {
         />
       </div>
 
-      <p className="text-lg font-medium text-foreground mb-10">
+      <p className="text-2xl md:text-3xl font-bold text-foreground mb-10">
         zerotoagent.dev/event/RbeBMcn9EPsyxEld
       </p>
 
@@ -384,19 +384,19 @@ function LetsBuildSlide() {
           <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
             <span className="text-primary font-bold">1</span>
           </div>
-          <p>Open <span className="text-primary font-medium">v0.dev</span> and start building</p>
+          <p>Grab your $30 code first</p>
         </div>
         <div className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border">
           <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
             <span className="text-primary font-bold">2</span>
           </div>
-          <p>Grab your $30 code and redeem it in <span className="text-primary font-medium">Settings → Billing</span></p>
+          <p>Redeem it in <span className="text-primary font-medium">Credits → Redeem a Usage Code</span></p>
         </div>
         <div className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border">
           <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
             <span className="text-primary font-bold">3</span>
           </div>
-          <p>Deploy and demo at 7:30!</p>
+          <p>Go to <span className="text-primary font-medium">v0.dev</span> and start building!</p>
         </div>
       </div>
     </div>
