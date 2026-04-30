@@ -343,9 +343,9 @@ function HostsSlide() {
             {/* QR Code */}
             <div className="mb-4">
               <img 
-                src={`https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=${encodeURIComponent(host.linkedIn)}`}
+                src={`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(host.linkedIn)}`}
                 alt={`LinkedIn QR code for ${host.name}`}
-                className="w-20 h-20"
+                className="w-32 h-32"
               />
             </div>
             
