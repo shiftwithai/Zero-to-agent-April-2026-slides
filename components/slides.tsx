@@ -283,7 +283,7 @@ function HostsSlide() {
       role: "Ecommerce & AI Automation Manager",
       company: "Proax Technologies",
       companyLogo: "https://media.licdn.com/dms/image/v2/C4D0BAQH26ch_0LKmEQ/company-logo_200_200/company-logo_200_200/0/1631373701820?e=1778716800&v=beta&t=Pi28AKCn-mwU2wRn40uzmcPtNVOvAxbMTi1V2AEEd8A",
-      bio: "Electrical Engineer with 5+ years at Google Search, designing AI-powered marketing systems and AI agents.",
+      bio: "",
     },
     {
       name: "Berto Mill",
